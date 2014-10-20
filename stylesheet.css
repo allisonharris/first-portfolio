@@ -67,21 +67,21 @@ h6 {
 }
 
 .header {
-	background-color: #70DBDB;
+	background-color: #00BBBB;
 	color: #F8F8F8 ;
 	border-bottom: 2px solid #9A9C9F;
 }
 
 .tagline {
-	background-color: #F8F8F8;
+	background-color: #37DCDC;
 	border-bottom: 2px solid #9A9C9F;
 	padding: 10px 0 10px 0;
 }
 
 .projects {
 	padding: 10px 0 10px 0;	
-	background-color: #ffff99;
-	border-bottom: 2px solid #9A9C9F;
+	border-bottom: 2px solid #9BB6F3;
+	margin: 0 auto;
 }
 .projects ul {
 	text-align: center;
@@ -95,24 +95,26 @@ h6 {
 }
 
 .education {
-	background-color: #F8F8F8;
+	background-color: #9BB6F3;
 	display: inline;
 	padding-bottom: 20px;
 	border-bottom: 2px solid #9A9C9F;
 }
 
-.education ul {
-	margin: 0 auto;
+.education li {
+	margin: 10px auto;
 	text-align: center;
 	list-style-type: none;
 
 }
 
+
 .aspirations {
 	border-top: 2px solid #9A9C9F;
-	background-color: #ffff99;
 	text-decoration: none;
 	border-bottom: 2px solid #9A9C9F;
+	text-align: center;
+	
 }
 
 .aspirations p {
@@ -126,11 +128,28 @@ h6 {
 .aspirations p strong {
 	font-weight: 400;
 	text-decoration: none;
+	list-style-type: circle;
 }
 
+.aspirations li {
+	margin: 15px auto;
+	text-align: center;
+
+}
+
+
 .footer {
-	background-color: #70DBDB;
+	background-color: #37DCDC;
 	color: #F8F8F8 ;
 	border-bottom: 2px solid #9A9C9F;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.footer a {
+	color: #000000;
+}
+
+.footer a:hover {
+	font-size: 120%;
 }
