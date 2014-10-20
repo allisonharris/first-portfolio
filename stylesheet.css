@@ -67,38 +67,39 @@ h6 {
 }
 
 .header {
-	background-color: #00BBBB;
+	background-color: #003640;
 	color: #F8F8F8 ;
-	border-bottom: 2px solid #9A9C9F;
+	border-bottom: 2px solid #F8F8F8;
 }
 
 .tagline {
-	background-color: #37DCDC;
-	border-bottom: 2px solid #9A9C9F;
+	background-color: #006D7F;
 	padding: 10px 0 10px 0;
+	color: #F8F8F8;
+	border-bottom: 2px solid #F8F8F8;
 }
 
 .projects {
-	padding: 10px 0 10px 0;	
-	border-bottom: 2px solid #9BB6F3;
+	background-color: #00D9FF;
+	padding: 10px 0 0 0;	
 	margin: 0 auto;
 }
 .projects ul {
 	text-align: center;
-	border-bottom: 2px solid #FFFF99;
+	border-bottom: 2px solid #F8F8F8;
+
 }
 
 .projects p {
 	font-size: 20px;
 	font-weight: 200;
+	text-decoration: underline;
 	padding: 10px 0 5px 0;
 }
 
 .education {
-	background-color: #9BB6F3;
-	display: inline;
 	padding-bottom: 20px;
-	border-bottom: 2px solid #9A9C9F;
+	border-bottom: 2px solid #F8F8F8;
 }
 
 .education li {
@@ -110,9 +111,9 @@ h6 {
 
 
 .aspirations {
-	border-top: 2px solid #9A9C9F;
+	background-color: #00D9FF;
 	text-decoration: none;
-	border-bottom: 2px solid #9A9C9F;
+	border-bottom: 2px solid #F8F8F8;
 	text-align: center;
 	
 }
@@ -139,17 +140,26 @@ h6 {
 
 
 .footer {
-	background-color: #37DCDC;
-	color: #F8F8F8 ;
-	border-bottom: 2px solid #9A9C9F;
+	background-color: #003640;
+	color: #F8F8F8;
+	border-bottom: 2px solid #F8F8F8;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .footer a {
-	color: #000000;
+	color: ##F8F8F8;
 }
 
 .footer a:hover {
 	font-size: 120%;
+	color: #F8F8F8;
+}
+
+.footer a:link {
+	color: #F8F8F8;
+}
+
+.footer a:visited {
+	color: #F8F8F8;
 }
