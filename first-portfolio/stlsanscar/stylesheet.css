@@ -8,3 +8,41 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	font: inherit;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+body {
+	background-image: url(images/tunnel.png);
+	background-size: 100% 100%;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 200;
+	padding-left: 30px;
+}
+
+h2 {
+	font-size: 20px;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+
+ul {
+	font-size: 40px;
+	list-style-type: none;
+	color: #999999;
+}
+
+.navigation {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:280;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
