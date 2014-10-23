@@ -31,6 +31,7 @@ h2 strong {
 h3 {
 	font-size: 20px;
 	font-weight: 300;
+	font-style: bold;
 	width: 700px;
 	margin: 0 auto;
 	padding: 20px 0 40px 0;
@@ -41,6 +42,7 @@ h3 {
 h4 {
 	font-size: 20px;
 	font-weight: 300;
+	font-style: bold;
 	width: 700px;
 	margin: 0 auto;
 	padding: 20px 0 40px 0;
@@ -51,6 +53,7 @@ h4 {
 h5 {
 	font-size: 20px;
 	font-weight: 300;
+	font-style: bold;
 	width: 700px;
 	margin: 0 auto;
 	padding: 20px 0 10px 0;
@@ -61,11 +64,23 @@ h5 {
 h6 {
 	font-size: 30px;
 	font-weight: 400;
+	font-style: bold;
 	text-align: center;
 	width: 700px;
 	margin: 0 auto;
 }
 
+a {
+	color: #000000;
+}
+
+a:hover {
+	font-size: 1%;
+}
+
+a:visited {
+	font-style: bold;
+}
 .header {
 	background-color: #003640;
 	color: #F8F8F8 ;

@@ -1,0 +1,30 @@
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+
+.header {
+	background-color: #0CFF00;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+
+}
+
+.age {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
