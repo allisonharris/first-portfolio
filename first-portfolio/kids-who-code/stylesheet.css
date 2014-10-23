@@ -1,3 +1,5 @@
+/*stylesheet.css*/
+
 html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	padding: 0;
 	border: 0;
@@ -5,26 +7,175 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	font-size: 100%;
 	font: inherit;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
-
-.header {
-	background-color: #0CFF00;
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 78px;
+	font-weight: 500;
+	text-align: center;
+
 }
 
-h2 {
+h2{
 	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+}
+
+h2 strong {
+	font-weight: 400;
 }
 
 h3 {
+	font-size: 20px;
+	font-weight: 300;
+	font-style: bold;
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px 0 40px 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 300;
+	font-style: bold;
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px 0 40px 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 300;
+	font-style: bold;
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h6 {
+	font-size: 30px;
+	font-weight: 400;
+	font-style: bold;
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	font-size: 1%;
+}
+
+a:visited {
+	font-style: bold;
+}
+.header {
+	background-color: #003640;
+	color: #F8F8F8 ;
+	border-bottom: 2px solid #F8F8F8;
+}
+
+.tagline {
+	background-color: #006D7F;
+	padding: 10px 0 10px 0;
+	color: #F8F8F8;
+	border-bottom: 2px solid #F8F8F8;
+}
+
+.projects {
+	background-color: #00D9FF;
+	padding: 10px 0 0 0;	
+	margin: 0 auto;
+}
+.projects ul {
+	text-align: center;
+	border-bottom: 2px solid #F8F8F8;
 
 }
 
-.age {
-	display: inline-block;
+.projects p {
+	font-size: 20px;
+	font-weight: 200;
+	text-decoration: underline;
+	padding: 10px 0 5px 0;
+}
+
+.education {
+	padding-bottom: 20px;
+	border-bottom: 2px solid #F8F8F8;
+}
+
+.education li {
+	margin: 10px auto;
+	text-align: center;
+	list-style-type: none;
+
+}
+
+
+.aspirations {
+	background-color: #00D9FF;
+	text-decoration: none;
+	border-bottom: 2px solid #F8F8F8;
+	text-align: center;
+	
+}
+
+.aspirations p {
+	font-size: 20px;
+	font-weight: 200;
+	padding: 10px 0 20px 0;
+	text-decoration: none;
+
+}
+
+.aspirations p strong {
+	font-weight: 400;
+	text-decoration: none;
+	list-style-type: circle;
+}
+
+.aspirations li {
+	margin: 15px auto;
+	text-align: center;
+
+}
+
+
+.footer {
+	background-color: #003640;
+	color: #F8F8F8;
+	border-bottom: 2px solid #F8F8F8;
 	margin: 0 auto;
 	text-align: center;
-	float: left;
+	padding-top: 10px;
+}
+
+.footer a {
+	color: ##F8F8F8;
+}
+
+.footer a:hover {
+	font-size: 120%;
+	color: #F8F8F8;
+}
+
+.footer a:link {
+	color: #F8F8F8;
+}
+
+.footer a:visited {
+	color: #F8F8F8;
 }
