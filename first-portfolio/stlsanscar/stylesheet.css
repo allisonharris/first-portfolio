@@ -12,30 +12,31 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 body {
 	background-image: url(images/tunnel.png);
 	background-size: 100% 100%;
+	background-repeat: repeat-y;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 6.25%; /* 60 / 960 */;
 	font-weight: 200;
-	padding-left: 30px;
+	padding-left:  3.125%; /* 30 / 960 */;
 }
 
 h2 {
 	font-size: 20px;
 	font-style: italic;
-	padding-left: 30px;
+	padding-left:  3.125%; /* 30 / 960 */;
 }
 
 
 ul {
-	font-size: 40px;
+	font-size: 4.1666666666666664%; /* 40 / 960 */
 	list-style-type: none;
 	color: #999999;
 }
 
 .navigation {
-    width: 100px;
-    height: 100px;
+    width: 10.416666666666667%; /* 100 / 960 */
+    height: 10.416666666666667%; /* 100 / 960 */
     position: absolute;
     top:280;
     bottom: 0;
@@ -45,4 +46,14 @@ ul {
 
 }
 
+@media (min-width: 500px) {
+  body {
+    background: url(images/tunnel.png);
+  }
+}
+@media (min-width: 800px) {
+  body {
+    background: url(images/tunnel.png);
+  }
+}
 
