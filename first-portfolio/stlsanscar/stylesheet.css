@@ -56,6 +56,16 @@ ul {
   margin: 0 auto;
 }
 
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 130%;
+  font-weight: 200;
+}
+
 .navigation {
     width: 10.416666666666667%; /* 100 / 960 */
     height: 10.416666666666667%; /* 100 / 960 */
