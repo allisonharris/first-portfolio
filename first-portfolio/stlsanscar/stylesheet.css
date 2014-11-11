@@ -62,7 +62,7 @@ a {
 }
 
 a:hover {
-  font-size: 130%;
+  font-style: bold, underline;
   font-weight: 200;
 }
 
