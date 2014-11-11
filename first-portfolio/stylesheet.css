@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-	font-size: 1%;
+	font-weight: 700;
 }
 
 a:visited {
